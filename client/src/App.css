@@ -1,0 +1,34 @@
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  color: #1f2937;
+}
+
+.app h1 {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+.app > p {
+  color: #64748b;
+}
+
+.status-card {
+  margin-top: 30px;
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.status-card h3 {
+  color: #16a34a;
+}
